@@ -1,0 +1,49 @@
+nav{
+height: 100px;
+width: 500px;
+background-color: rgba(76, 76, 250, 0.801);
+}
+nav ul li:hover{
+    background-color:lightblue;
+}
+li{
+display: flex;
+float: left;
+margin: 5px;
+padding: 5px;
+}
+li.currentPage input.zoeken:focus{
+    border: 15px solid aqua;
+}
+
+li:first-child{
+padding: 0px;
+margin: 0px;
+}
+ul .link-een a:hover{
+color: lightblue;
+font-weight: bold;
+}
+ul .link-twee a:active{
+    color: red;
+    font-style: italic;
+    }
+ul .link-drie a:visited{
+color:yellow;
+}
+input{
+margin: 25px;
+padding: 25px;
+}
+input.tekst{
+display: flex;
+float: left;
+}
+input.tekst:focus{
+color:green;
+font-size: 20px;
+}
+input.zoeken{
+margin: 0px;
+padding: 0px;
+}
